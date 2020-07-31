@@ -23,7 +23,8 @@ rm source-archive.zip
 
 
 ## Downloading en-{} or {}-en dictionaries
-lgs="af ar bg bn bs ca cs da de el en es et fa fi fr he hi hr hu id it ja ko lt lv mk ms nl no pl pt ro ru sk sl sq sv ta th tl tr uk vi zh"
+#lgs="af ar bg bn bs ca cs da de el en es et fa fi fr he hi hr hu id it ja ko lt lv mk ms nl no pl pt ro ru sk sl sq sv ta th tl tr uk vi zh"
+lgs="en zh"
 mkdir -p crosslingual/dictionaries/
 for lg in ${lgs}
 do
@@ -36,6 +37,7 @@ do
   done
 done
 
+exit
 ## Download European dictionaries
 for src_lg in de es fr it pt
 do
